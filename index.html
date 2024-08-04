@@ -8,14 +8,21 @@
         body {
             font-family: Arial, sans-serif;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
-        }
-        .container {
             text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        h1, p {
+            margin: 0;
         }
         h1 {
             color: #333;
@@ -23,9 +30,8 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello DevOps, Greetings!</h1>
-        <p>We are learning containerization with Docker</p>
-    </div>
+    <h1>Hello DevOps, Greetings!</h1>
+    <img src="devops.jpg" alt="DevOps Image">
+    <p>We are learning DevOps</p>
 </body>
 </html>
